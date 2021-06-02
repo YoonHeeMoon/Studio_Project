@@ -4,29 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".subActivity">
 
     <TextView
-        android:id="@+id/tv_title"
+        android:id="@+id/tv_getText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HellowOrld!"
-        android:textColor="#FF0000"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginRight="179dp"
+        android:text="이동한 페이지"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn_A"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="이동"
-        app:layout_constraintBottom_toTopOf="@+id/tv_title"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
